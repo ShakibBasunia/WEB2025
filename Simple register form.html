@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2 style="text-align: center;"> Student Registration Form</h2>
+   
+                <legend>Personal Information</legend>
+                <label for="first_name Like JOe">First Name:</label><br>
+                <input type="text" id="first_name" name="first_name" value=" Ex:MD Shohedozzaman" required><br><br>
+
+
+
+
+
+
+
+                <label for="last_name">Last Name:</label><br>
+                <input type="text" id="last_name" name="last_name"value="Ex: Basunia" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" value="Ex:bdu@gmail.com" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" value="EX:John" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Details</legend>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" required>
+                <label for="other">Other</label><br><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for="country">Country:</label><br>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>About You</legend>
+                <label for="bio">Short Bio:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="30"></textarea><br><br>
+            </fieldset>
+
+            <div style="text-align: center;">
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
